@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>edslider-时尚的响应式jQuery焦点图插件</title>
+	
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' type='text/css'>
+	<link rel="stylesheet" href="css/edslider.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/animate-custom.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="container">
+		<ul class="mySlideshow">
+			<li class="first">
+				<a href="#" target="_blank" class="animated fadeInLeft">
+					<img src="images/hd-logo.png" width="330" height="255" alt="Harley-Davidson">
+				</a>
+				<div class="animated fadeInRight">It's time to ride!</div>
+			</li>
+			<li class="second">
+				<img src="images/second-title.png" class="animated fadeInRight">
+			</li>
+			<li class="third">
+				<img src="images/third-title.png" class="animated fadeInLeft">
+			</li>
+			<li class="fourth">
+				<img src="images/fourth-title.png" class="animated fadeInRight">
+			</li>
+			<li class="fifth">
+				<img src="images/fifth-title.png" class="animated fadeInLeft">
+			</li>
+		</ul>
+	</div>
+
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.edslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Call plugin
+			$('.mySlideshow').edslider({
+				width : '100%',
+				height: 500
+			});
+		});
+	</script>
+	
+</body>
+</html>

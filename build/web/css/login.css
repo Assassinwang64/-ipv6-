@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    /*background: url(image/1494318631621.jpg) fixed center center;*/
+    background-color: #ffa186;
+}
+.logo_box{
+    width: 280px;
+    height: 490px;
+    padding: 35px;
+    color: #000000;
+    position: absolute;
+    left: 50%;
+    top:100px;
+    margin-left: -175px;
+}
+.logo_box imglogo{
+    text-align: center;
+    height: 20px;
+    padding:0 0 35px 0;
+}
+.input_outer{
+    height: 46px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    border: #000000 2px solid !important;
+}
+.u_user{
+    width: 25px;
+    height: 25px;
+    background: url(../img/login_ico.png);
+    background-position:  -125px 0;
+    position: absolute;
+    margin: 12px 13px;
+}
+.us_uer{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/login_ico.png);
+    background-position: -125px -34px;
+    position: absolute;
+    margin: 12px 13px;
+}
+label{
+    color: #000000;
+    display: block;
+}
+.text{
+    width: 220px;
+    height: 46px;
+    outline: none;
+    display: inline-block;
+    font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+    margin-left: 50px;
+    border: none;
+    background: none;
+    line-height: 46px;
+    color: #ffffff;
+}
+/*///*/
+.mb2{
+    margin-bottom: 20px
+}
+.mb2 a{
+    text-decoration: none;
+    outline: none;
+}
+.submit {
+    padding: 15px;
+    margin-top: 20px;
+    display: block;
+}
+.act-but{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    background: yellow;
+}
+.login-fgetpwd {
+    float: right;
+}
+.checkbox{
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+/*////*/
+.sas{
+    width: 280px;
+    height: 18px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 50px;
+}
+.sas a{
+    width: 280px;
+    height: 18px;
+    color: #000000;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+}
+input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+color: #ffffff;
+
+}
+
+input::-moz-input-placeholder{ /*Mozilla Firefox*/
+
+color: #ffffff;
+
+}
+
+input::-ms-input-placeholder{ /*Internet Explorer*/ 
+
+color: #ffffff;
+
+}

@@ -1,0 +1,110 @@
+body {
+
+}
+p{
+    color: #ffffff;
+}
+input[type="text"]:required {
+    border:3px solid red;
+}
+input[type="email"]:required {
+    border:3px solid red;
+}
+input[type="password"]:required {
+    border:3px solid red;
+}
+#main {
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    border: solid 4px red;
+    background-color: #99FFFF;
+}
+#header {
+    padding-top: 0px;
+    width: 100%;
+    height: 10%;
+}
+#header p {
+    padding-top:0px;
+    font-family: 幼圆;
+    font-size: 48px;
+    color: #000000;
+    display: block;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+#left {
+    width: 30%;
+    height: 580px;
+
+    float: left;
+    margin-left: 400px;
+}
+#left_son {
+    width: 85%;
+    height: 85%;
+    border: 4px;
+    border-style: dotted solid double dashed;
+
+    margin: 40px auto;
+}
+#l_s_i1 {
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#l_s_p1 {
+    display: block;
+    font-size: 20px;
+}
+#right {
+    height: 580px;
+
+    display: block;
+}
+#right_son {
+    width: 85%;
+    height: 85%;
+    border: 4px;
+    border-style: dotted solid double dashed;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#footer {
+    width: 100%;
+    height: 5%;
+    background-color: #ffffff;
+}
+#bottom_line {
+    width: 100%;
+    height: 4%;
+    background-color: #FFCCCC;
+}
+#bottom_line p {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+}
+.l_p {
+    margin-left: 20px;
+}
+#u_n {
+    margin-left: 50px;
+}
+#us_na {
+    width: 405px;
+}
+input {
+    width: 400px;
+}
+input[type="submit"] {
+    width: 100px;
+}
+input[type="reset"] {
+    width: 100px;
+}
+input[type="email"] {
+    width: 398px;
+}

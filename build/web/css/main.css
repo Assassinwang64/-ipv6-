@@ -1,0 +1,160 @@
+body {
+    background-color: #ffa186;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-size: 13px;
+    color: #6a737b;
+}
+/*input{
+    bordre:1px solid #e5e5e5;
+    background: #ffffff;
+    -moz-box-shadow: rgba(0,0,0,0.5) 10px 10px 5px;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 5px;
+}
+input:hover ,input:focus{
+    border-color: #c9c9c9;
+}*/
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 50px;
+}
+a {
+
+    font-size: 25px;
+    color: #ffffff;
+    -webkit-transition: all .6s ease-in 0s;
+    -moz-transition: all .6s ease-in 0s;
+    -ms-transition: all .6s ease-in 0s;
+    -o-transition: all .6s ease-in 0s;
+    transition: all .6s ease-in 0s;/*渐变效果*/
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a:focus, a:hover{
+    font-size: 40px;
+    transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+}
+#logo1{
+
+}
+.current{
+    padding-left: 410px;
+}
+a:focus, a:hover {
+    color: #6CB670;
+}
+#preloader {
+    background-color: #ffa186;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1100;
+}
+#preloader > img {
+    left: 47%;
+    position: absolute;
+    top: 48%;
+}
+/*=========================================
+	Header
+==========================================*/
+#navigation {
+    background-color: rgba(16, 22, 54, 0.2);
+    border: 0 none;
+    margin: 0;
+}
+h1{
+    float: left;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+}
+.navbar-header {
+    float: left
+}
+/*根据屏幕大小调整*/
+/*@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}*/
+
+.item{
+    background-size: cover;
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffa186;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-weight: 400;
+}
+.carousel-caption h2 {
+    font-size: 72px;
+    font-weight: 500;
+}
+.carousel-caption h2 span {
+    font-weight: 800;
+}
+.carousel-caption h3 {
+    font-size: 58px;
+    font-weight: 300;
+    margin: 6px 0 20px;
+}
+.carousel-caption p {
+    color: #ffa186;
+    font-size: 45px;
+    font-weight: 500;
+}
+.carousel-caption p:before,
+.carousel-caption p:after {
+    color: #0feb9e;
+    content: "___";
+    position: relative;
+    top: -8px;
+    font-weight: 400;
+}
+.carousel-caption p:before {
+    right: 30px;
+}
+span.color {
+    color: #0feb9e;
+    font-weight: 400;
+}
+.mypic{
+    padding-top: 500px;
+}
+#pic-p{
+    color: #ffa186;
+    font-size: 25px;
+}

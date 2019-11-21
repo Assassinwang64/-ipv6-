@@ -1,0 +1,68 @@
+body {
+    background-color: #ffa186;
+}
+html{
+
+}
+
+ol, ul {
+    margin: 0;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 50px;
+}
+a {
+
+    font-size: 25px;
+    color: #6a737b;
+    -webkit-transition: all .6s ease-in 0s;
+    -moz-transition: all .6s ease-in 0s;
+    -ms-transition: all .6s ease-in 0s;
+    -o-transition: all .6s ease-in 0s;
+    transition: all .6s ease-in 0s;/*渐变效果*/
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a:focus, a:hover{
+    font-size: 40px;
+    transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+}
+#logo1{
+
+}
+.current{
+    padding-left: 410px;
+}
+a:focus, a:hover {
+    color: #6CB670;
+}
+/*=========================================
+	Header
+==========================================*/
+#navigation {
+    background-color: rgba(16, 22, 54, 0.2);
+    border: 0 none;
+    margin: 0;
+}
+h1{
+    float: left;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+}
+.navbar-header {
+    float: left
+}
+.item{
+    background-size: cover;
+}
